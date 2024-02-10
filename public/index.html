@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anas Mohammad's Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+  <div class="bg-blue-900 text-white p-6">
+    <div class="flex flex-wrap justify-between items-center">
+      <div class="flex space-x-4 items-center">
+        <img src="https://placehold.co/100x100" alt="Anas Mohammad's Profile Picture" class="rounded-full border-4 border-white shadow-lg">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold">ANAS MOHAMMAD</h1>
+          <p class="text-xl md:text-2xl">SOFTWARE DEVELOPER</p>
+          <a href="http://www.anas-mohammad.net" class="text-blue-300 text-sm md:text-base">www.anas-mohammad.net</a>
+        </div>
+      </div>
+      <div>
+        <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-1 md:py-2 px-2 md:px-4 rounded text-xs md:text-sm">
+          <i class="fas fa-envelope"></i> Contact info
+        </button>
+      </div>
+    </div>
+    <div class="mt-4">
+      <span class="bg-red-600 text-white font-bold py-1 px-3 rounded-full text-xs">Data Engineer</span>
+      <span class="bg-red-600 text-white font-bold py-1 px-3 rounded-full text-xs ml-2">Data Analysis</span>
+    </div>
+  </div>
+  
+  <div class="p-4">
+    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+      <i class="fas fa-plus-circle"></i> Add profile section
+    </button>
+  </div>
+  
+  <!-- Additional content like 'More' button and 'Public profile & URL' would go here -->
+  
+  <!-- Placeholder for ads and other profile related information -->
+  <div class="p-4">
+    <p class="text-gray-600">About...</p>
+    <div class="bg-white p-4 rounded shadow">
+      <p>Hi, I'm Anas. Welcome to my website</p>
+    </div>
+  </div>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <div class="p-4">
+    <div class="bg-white p-4 rounded shadow">
+      <p class="text-gray-600">Visit my Github repositories</p>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <a href="https://github.com/anasm20" class="text-blue-300 text-sm md:text-base">anasm20</a>
+      </button>
+    </div>
+  </div>
+  
+</body>
 </html>
