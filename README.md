@@ -1,5 +1,6 @@
 # D6 - Project
-![Screenshot 2024-02-10 at 12 39 20](https://github.com/anasm20/portfolio/assets/112882511/44a4050e-7a36-40c5-bfd5-95c9121a3e27)
+
+![Screenshot 2024-02-10 at 14 14 45](https://github.com/anasm20/portfolio/assets/112882511/0650545f-6a6f-4459-97f6-5e0c3a37470f)
 
 
 # Getting Started with Create React App
