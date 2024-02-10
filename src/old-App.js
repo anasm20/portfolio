@@ -1,7 +1,5 @@
-//import React from 'react';
 import logo from './logo.svg';
-//import './App.css'; // Uncomment if you want to use styles from App.css
-//import logo from './img/anas-logo2.png'; // Ensure this line is not commented out and the path is correct
+//import './App.css';
 
 function App() {
   return (

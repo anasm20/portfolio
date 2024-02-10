@@ -1,0 +1,127 @@
+/* Hintergrundfarben */
+.bg-gray-100 {
+  background-color: #f7fafc; /* Sehr helles Grau, verwendet für Hintergründe */
+}
+
+.bg-blue-900 {
+  background-color: #1a365d; /* Dunkelblau, oft für Text oder dunkle Hintergründe */
+}
+
+.bg-blue-700, .hover\:bg-blue-800:hover {
+  background-color: #2c5282; /* Mittelblau, für Buttons oder Hover States */
+}
+
+.bg-blue-800 {
+  background-color: #2a4365; /* Zwischen Dunkelblau und Mittelblau, für Abstufungen und Akzente */
+}
+
+.bg-red-600 {
+  background-color: #e53e3e; /* Leuchtendes Rot, für Warnungen oder wichtige Akzente */
+}
+
+.bg-white, .hover\:bg-gray-100:hover {
+  background-color: #ffffff; /* Reines Weiß, für saubere Hintergründe und UI-Elemente */
+}
+
+.bg-blue-600, .hover\:bg-blue-700:hover {
+  background-color: #2b6cb0; /* Helles Blau, für interaktive Elemente oder Links */
+}
+
+/* Textfarben */
+.text-white {
+  color: #ffffff; /* Weißer Text, für Lesbarkeit auf dunklen Hintergründen */
+}
+
+.text-blue-300 {
+  color: #63b3ed; /* Helles Blau, für Links und hervorgehobene Informationen */
+}
+
+.text-gray-800 {
+  color: #2d3748; /* Sehr dunkles Grau, für primären Text */
+}
+
+.text-gray-600 {
+  color: #718096; /* Mittelgraues Grau, für sekundären Text oder Hilfstext */
+}
+
+/* Schriftgrößen */
+.text-3xl {
+  font-size: 30px; /* Große Überschrift, für wichtige Titel */
+}
+
+.md\:text-4xl {
+  font-size: 34.4px; /* Noch größere Überschrift, für Haupttitel auf mittelgroßen Geräten */
+}
+
+.text-xl {
+  font-size: 20px; /* Überschrift mittlerer Größe, für Sektionstitel */
+}
+
+.md\:text-2xl {
+  font-size: 24px; /* Größere Überschrift, für hervorgehobene Abschnitte */
+}
+
+.text-sm, .text-xs {
+  font-size: 14px; /* Kleiner Text, für Fußnoten oder weniger wichtige Informationen */
+}
+
+.md\:text-base {
+  font-size: 16px; /* Standardtextgröße, für den Hauptteil des Inhalts */
+}
+
+/* Schriftgewicht */
+.font-bold {
+  font-weight: 700; /* Fettgedruckter Text, um Wichtigkeit zu betonen */
+}
+
+/* Padding & Margin */
+.p-6 {
+  padding: 26px; /* Gibt Elementen Platz, um Inhalte nicht zu drängen */
+}
+
+.py-1, .py-2 {
+  padding-top: 4px;
+  padding-bottom: 4px; /* Vertikales Padding, um vertikalen Raum um Elemente zu geben */
+}
+
+.md\:py-2 {
+  padding-top: 6px;
+  padding-bottom: 6px; /* Größeres vertikales Padding auf mittelgroßen Geräten */
+}
+
+.px-2, .px-4 {
+  padding-left: 8px;
+  padding-right: 8px; /* Horizontales Padding, für Innenabstände */
+}
+
+.md\:px-4 {
+  padding-left: 16px;
+  padding-right: 16px; /* Größeres horizontales Padding auf mittelgroßen Geräten */
+}
+
+/* Ränder und Abrundungen */
+.border-4 {
+  border-width: 2px; /* Definiert die Dicke der Grenze für Elemente */
+}
+
+.border-white {
+  border-color: #ffffff; /* Weiße Grenze, für Abgrenzungen oder Akzentuierung */
+}
+
+.rounded, .rounded-full {
+  border-radius: 19px; /* Abrundungen für Elemente, um weiche Ecken zu erzeugen */
+}
+
+/* Schatten */
+.shadow, .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Schatten für einen 3D-Effekt oder zur Hervorhebung von Elementen */
+}
+
+/* Hover States */
+.hover\:bg-blue-800:hover {
+  background-color: #2c5282; /* Dunkleres Blau beim Überfahren mit der Maus, für interaktive Elemente */
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: #f7fafc; /* Helle Farbänderung beim Überfahren mit der Maus, um Interaktivität zu signalisieren */
+}
